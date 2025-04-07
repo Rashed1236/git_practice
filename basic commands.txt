@@ -1,0 +1,21 @@
+Step 2: Check git is installed on your system
+   git --version
+
+Step 3: Run following git commands
+   git config --global user.name “xxxx”
+   git config --global user.name
+
+   git config --global user.email “xxxx”
+   git config --global user.email
+
+   git config --global --list
+
+Step 4: Create a demo project/folder & add to git
+   
+Step 5: Goto cmd OR terminal OR git bash 
+     CD to the location of the folder and run following commands
+   git init
+   git status
+   git add .
+   git commit -m “msg”
+   git push -u “url” master
