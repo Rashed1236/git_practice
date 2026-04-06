@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import os
 # few comments added here to test the commit and push functionality of git
+### added another comment to test the commit and push functionality of git
 
 def test_registry_load():
     """
