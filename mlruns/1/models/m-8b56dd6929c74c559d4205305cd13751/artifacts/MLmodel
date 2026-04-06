@@ -1,0 +1,36 @@
+artifact_path: file:C:/Users/Rashed1236/Documents/ML on IRIS/Final Model/Final Model_folder/mlruns/1/models/m-8b56dd6929c74c559d4205305cd13751/artifacts
+flavors:
+  python_function:
+    artifacts:
+      encoder_file:
+        path: artifacts\species_encoder_hgb_weighted.joblib
+        uri: artifacts/species_encoder_hgb_weighted.joblib
+      model_file:
+        path: artifacts\best_hgb_classifier_weighted.joblib
+        uri: artifacts/best_hgb_classifier_weighted.joblib
+    cloudpickle_version: 3.1.2
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.14.3
+    streamable: false
+is_signature_from_type_hint: false
+mlflow_version: 3.10.1
+model_id: m-8b56dd6929c74c559d4205305cd13751
+model_size_bytes: 53983
+model_uuid: m-8b56dd6929c74c559d4205305cd13751
+prompts: null
+run_id: 447980a0e3f24e8987833dd44fddfafe
+signature:
+  inputs: '[{"type": "double", "name": "sepal length (cm)", "required": true}, {"type":
+    "double", "name": "sepal width (cm)", "required": true}, {"type": "double", "name":
+    "petal length (cm)", "required": true}, {"type": "double", "name": "petal width
+    (cm)", "required": true}, {"type": "string", "name": "Soil_Type", "required":
+    true}]'
+  outputs: '[{"type": "string", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-03-30 13:13:10.455932'

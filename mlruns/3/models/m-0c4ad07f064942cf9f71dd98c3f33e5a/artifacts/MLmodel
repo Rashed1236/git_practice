@@ -1,0 +1,26 @@
+artifact_path: file:C:/Users/Rashed1236/Documents/ML on IRIS/Final Model/Final Model_folder/mlruns/3/models/m-0c4ad07f064942cf9f71dd98c3f33e5a/artifacts
+flavors:
+  python_function:
+    artifacts:
+      classifier:
+        path: artifacts\best_hgb_classifier_weighted.joblib
+        uri: C:\Users\Rashed1236\Documents\ML on IRIS\Final Model\Final Model_folder\best_hgb_classifier_weighted.joblib
+      encoder:
+        path: artifacts\species_encoder_hgb_weighted.joblib
+        uri: C:\Users\Rashed1236\Documents\ML on IRIS\Final Model\Final Model_folder\species_encoder_hgb_weighted.joblib
+    cloudpickle_version: 3.1.2
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.14.3
+    streamable: false
+mlflow_version: 3.10.1
+model_id: m-0c4ad07f064942cf9f71dd98c3f33e5a
+model_size_bytes: 53653
+model_uuid: m-0c4ad07f064942cf9f71dd98c3f33e5a
+prompts: null
+run_id: 53adf9fdc2e44b76ac07c3b61ea5a34f
+utc_time_created: '2026-03-31 05:14:51.189155'
